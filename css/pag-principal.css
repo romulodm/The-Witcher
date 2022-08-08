@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Rolagem suave? Não sentimos muito diferença, mas colocamos.*/
+html {
+    scroll-behavior: smooth;
+}
+
+/*Navegação do site:*/
+
+/*Imagem que é usada de plano de fundo da navegação superior*/
+.banner {
+    width: 100%;
+
+    height: 95%; /*diferença entre o padrao.css e a pag-principal.css*/
+    max-height: 1400px; /*outra diferença (não tem isso no padrao)*/
+
+    background-color: #000;
+    background-image: url(../img/15.png);
+    background-size: cover;
+    background-position: center;
+}
+
+/*Estilo da navegação (que fica identada dentro do banner):*/
+.navegacao {
+    width: 90%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/*Elementos da lista da navegação (que te redirecionam às outras páginas):*/
+.navegacao ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 20px 20px;
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: .2em;
+}
+
+/* Cor das letras:*/
+.navegacao ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/*Barra que sublinha as palavras quando você passa o mouse*/
+.navegacao ul li::after {
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: #ffffff;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+
+}
+
+/* Tamanho da barra que sublinha as palavras:*/
+.navegacao ul li:hover::after {
+    width: 100%;
+}
+
+
+/* Título na foto:*/
+.titulo-jogo {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #faf9f6;
+}
+
+.titulo-jogo h1 {
+    font-size: 8vw;
+    margin-top: 80px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    margin-bottom: -10px;
+}
+
+/*Data que fica abaixo do título:*/
+.titulo-jogo p {
+    font-size: 1.5vw;
+    margin: 0px auto;
+    font-weight: 200;
+    line-height: 25px;
+    font-family: 'Albert Sans', sans-serif;
+    font-style: italic;
+}
+
+/*Barra que separa a imagem do conteúdo do site (<hr> personalizado):*/
+.barra {
+   border-top: 8px solid #1f1010;
+   border-bottom: 2px solid #fff;
+   box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+
+/*Corpo do site, que fica atrás da página onde o conteúdo fica (background do site):*/
+body {
+    width: 100%;
+    height: 100vh;
+    background: #faf9f6;
+}
+
+/*Página onde vai o conteúdo (corpo do site):*/
+
+/*Título do conteúdo, que fica fora da "página" onde o conteúdo é inserido:*/
+.conteudo-title {
+    display: block;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    font-size: 40px;
+    text-shadow: -3px 3px rgb(240, 237, 237), -2px 2px #fff, -1px 1px #fff;
+}
+
+/*"Página" onde fica o conteúdo:*/
+.conteudo-background {
+    width: 60%;
+    background-color: #fff;
+    border: 2px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    position: relative;
+    left: 20%;
+    padding: 5px 0;
+}
+
+/*Onde as palavras, ou o conteúdo, ficam:*/
+.conteudo-background .conteudo {
+    margin: auto;
+    width: 90%;
+    position: relative;
+    left: 3px;
+}
+
+
+/*Fonte e alinhamento do texto:*/
+.texto {
+    font-family: 'Albert Sans', sans-serif;
+    text-align: justify;
+}
+
+/*Título do texto (tamanho, fonte e espaçamento):*/
+.texto-title {
+    font-size: 25px;
+    font-weight: 300;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: .05em;
+    padding-top: 10px;
+}
+
+/*Tamanho e posição dos textos:*/
+.texto {
+    font-size: 18px;
+    font-weight: 300;
+    padding-bottom: 6px;
+    padding-top: 8px;
+}
+
+
+/*Rodapé do Site:*/
+
+/*Mesma barra utilizada na parte superior, mas com tamanhos e cores invertidos:*/
+.barra-rodape {
+    border-top: 8px solid #fff;
+    border-bottom: 2px solid #bb0000;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+ }
+
+/*Tamanho e cor do rodapé:*/
+footer {
+    width: 100%;
+    height: 35%;
+    background-color:#1f1010
+}
+
+/*Colocamos o conteúdo dentro dessa div, pra deixar o "footer" apenas pra dimensão:*/
+.conteudo-rodape {
+    width: 65%;
+    height: 20%;
+    position: relative;
+    margin: auto; 
+    justify-content: space-between;
+    top: 10%;   
+}
+
+/*Posição, fonte e cor do conteúdo:*/
+.texto-rodape {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 300;
+    padding-bottom: 6px;
+    padding-top: 8px;
+}
+
+/*íncones das redes sociais, que foram colocados em forma de lista e que te levam à links externos:*/
+.icones-sociais li {
+    display: inline-block;
+    left: -1px;
+    margin: 40px 70px;
+    position: relative;
+}
+
+/*Posição do vídeo utilizado:*/
+.video {
+    position: relative;
+    text-align: center;
+    left: 3px;
+}
+
+/*Tamanho do vídeo e sombreado das bordas:*/
+iframe {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    width: 90%;
+    height: 60%;
+ }
+
+/*Tabela (tamanho e posição):*/
+table {    
+    width: 90%;
+    position: relative;
+    margin: auto;
+}
+
+/*Fonte, posição e estilo das bordas:*/
+table, th, td {
+    font-family: 'Albert Sans', sans-serif;
+    text-align: center;
+    border: 3px solid #1f1010;
+    border-collapse: collapse;
+    padding: 5px;
+    }
