@@ -13,11 +13,17 @@ O site consta com três páginas, que dão um panorama geral sobre o jogo, seu u
  # :clipboard: Páginas
 <p align="justify ">Sobre as páginas:</p>
  
-```Página Inicial``` ➜ ```Fizemos um panorama geral do jogo, falando sobre premiações, estilo de gameplay e especificações.```
+- ```Página Inicial:```<br>
+
+```Mostramos um panorama geral do jogo, falando sobre premiações, estilo de gameplay e especificações.```
 <br><br>
-```Personagens``` ➜ ```Falamos sobre a variedade de personagens, citando seis principais, levando em consideração a históra geral da saga.```
+- ```Personagens:```<br>
+
+```Falamos sobre a variedade de personagens, citando os seis principais, levando em consideração a históra geral da saga.```
 <br><br>
-```Universo``` ➜ ```Para compreender o jogo, falamos das histórias de alguns livros e encaixamos elas com os três jogos (com spoilers).```
+- ```Universo:```<br> 
+
+```Para compreender o jogo, falamos das histórias de alguns livros e encaixamos elas com os três jogos (com spoilers).```
 
 <br>
 
