@@ -11,19 +11,32 @@ O site consta com três páginas, que dão um panorama geral sobre o jogo, seu u
 <br>
 
  # :clipboard: Páginas
-<p align="justify ">Sobre as páginas:</p>
+<p align="justify">Sobre as páginas:</p>
  
 - ```Página Inicial:```<br>
 
-```Mostramos um panorama geral do jogo, falando sobre premiações, estilo de gameplay e especificações.```
-<br><br>
+<p align="justify">Exibimos um panorama geral do The Witcher 3: Wild Hunt, falando sobre as suas premiações, seu estilo de gameplay e também sobre os requesitos mínimos do sistema. 
+Além disso, tentamos evidenciar que, para entender a história do terceiro jogo da franquia, se faz necessário o entendimento da história dos livros e também de partes da 
+história dos dois jogos anteriores.
+do 
+</p>
+<br>
+
 - ```Personagens:```<br>
 
-```Falamos sobre a variedade de personagens, citando os seis principais, levando em consideração a históra geral da saga.```
-<br><br>
+<p align="justify">Escolhemos os seis personagens "principais" e falamos sobre a história particular de cada um, procurando sempre exibir links externos para páginas de fãs da franquia, que dedicaram um tempo muito maior no aprofundamento da história de cada um.</p>
+<br>
+
 - ```Universo:```<br> 
 
-```Para compreender o jogo, falamos das histórias de alguns livros e encaixamos elas com os três jogos (com spoilers).```
+<p align="justify">Para compreender melhor os jogos da franquia The Witcher é necessário entender um pouco mais sobre o vasto universo criado pelo Andrzej Sapkowski, autor dos livros. Por conta disso, nessa página buscamos falar sobre o mapa do jogo e sobre as histórias de alguns livros e sobre como elas encaixam perfeitamente com os três jogos (com spoilers).</p>
+
+<br>
+
+# 	:seedling: Tecnologias Utilizadas
+
+- `HTML5`
+- `CSS3`
 
 <br>
 
